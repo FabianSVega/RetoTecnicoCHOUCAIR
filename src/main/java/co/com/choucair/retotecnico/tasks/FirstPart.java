@@ -17,9 +17,9 @@ public class FirstPart implements Task {
 
     @Override
     public <T extends Actor> void performAs(T actor) {
-        actor.attemptsTo(Enter.theValue("MFfarisA").into(FirstPartPage.FIRST_NAME),
-                Enter.theValue("VFMMMf").into(FirstPartPage.LAST_NAME),
-                Enter.theValue("MMFMfariaVeg@gmail.com").into(FirstPartPage.EMAIL),
+        actor.attemptsTo(Enter.theValue("FabianF").into(FirstPartPage.FIRST_NAME),
+                Enter.theValue("VEGAS").into(FirstPartPage.LAST_NAME),
+                Enter.theValue("FabianFfVeg@gmail.com").into(FirstPartPage.EMAIL),
                 SendKeys.of("May").into(FirstPartPage.MONTH),
                 SendKeys.of("13").into(FirstPartPage.DAY),
                 SendKeys.of("1999").into(FirstPartPage.YEAR),
